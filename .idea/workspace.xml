@@ -21,8 +21,11 @@
   <component name="ChangeListManager">
     <list default="true" id="7564c4bb-3fe0-48f2-b08b-7276b8dcb39f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/authors/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/authors/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/models/authorIndex_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/models/authorIndex_spec.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/authors_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/authors_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/author.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/author.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/models/authorDetail_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/features/author/authorDetail_spec.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/models/authorIndex_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/features/author/authorIndex_spec.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/models/author_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/models/author_spec.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +44,11 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Paula\Documents\HPI\5.Semester\SWT2\rails-exercise-20-Paula-Kli\spec\features\author" />
+    </key>
   </component>
   <component name="RunManager" selected="Rails.Development: rails-exercise-20-Paula-Kli">
     <configuration name="Development: rails-exercise-20-Paula-Kli" type="RailsRunConfigurationType" factoryName="Rails">
@@ -139,7 +147,7 @@
       <workItem from="1604923967324" duration="654000" />
       <workItem from="1605002586982" duration="4575000" />
       <workItem from="1605126013614" duration="2773000" />
-      <workItem from="1605174583326" duration="4816000" />
+      <workItem from="1605174583326" duration="7010000" />
     </task>
     <servers />
   </component>
