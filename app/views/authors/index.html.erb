@@ -1,0 +1,16 @@
+<h1>Listing Authors</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Homepage</th>
+  </tr>
+
+  <% @author.each do |author| %>
+    <tr>
+      <td><%= author.name %></td>
+      <td><%= author.homepage %></td>
+      <td><%= link_to 'Show', author_path(author) %></td>
+    </tr>
+  <% end %>
+</table>

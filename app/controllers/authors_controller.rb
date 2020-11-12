@@ -9,6 +9,9 @@ class AuthorsController < ApplicationController
   def show
     @author = Author.find(params[:id])
   end
+  def index
+    @author = Author.all
+  end
   private
     def article_params
       params.require(:author).permit(:first_name, :last_name, :homepage)
