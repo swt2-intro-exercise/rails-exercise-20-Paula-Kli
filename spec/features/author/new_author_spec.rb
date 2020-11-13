@@ -24,7 +24,7 @@ end
 it "should render an error message when entering an author without a last name" do
   visit new_author_path
   page.fill_in 'author[first_name]', with: 'Edsger'
-  page.fill_in 'author[homepage]', with: 'https://de.wikipedia.org/wiki/Edsger_W._Dijkstra'
+  page.fill_in 'author[homepage]', with: 'test.de'
   find('input[type="submit"]').click
   expect(page).to have_text("Last name can't be blank")
 end
