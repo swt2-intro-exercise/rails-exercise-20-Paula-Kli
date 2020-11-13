@@ -26,7 +26,7 @@ it "should render an error message when entering an author without a last name" 
   page.fill_in 'author[first_name]', with: 'Edsger'
   page.fill_in 'author[homepage]', with: 'https://de.wikipedia.org/wiki/Edsger_W._Dijkstra'
   find('input[type="submit"]').click
-  expect(page).to have_text('prohibited this article from being saved:')
+  expect(page).to have_text("Last name can't be blank")
 end
 
 

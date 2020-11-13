@@ -11,8 +11,8 @@ describe "New author page", type: :feature do
   end
 
   it 'should not be allowed to create an author without a lastname' do
-  @author = Author.new(first_name:'Alan', homepage: 'example.com')
-  expect(@author).to_not be_valid
+  author = Author.new(first_name:'Alan', homepage: 'example.com')
+  expect(author).to_not be_valid
   end
 
 end
