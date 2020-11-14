@@ -13,5 +13,6 @@ describe "See index page for all authors", type: :feature do
     visit authors_path
     expect(page).to have_link 'Show' , href: author_path(@testAuthor)
     expect(page).to have_link 'Edit' , href: edit_author_path(@testAuthor)
+    expect(page).to have_link 'Destroy' , href: author_path(@testAuthor)
   end
 end
