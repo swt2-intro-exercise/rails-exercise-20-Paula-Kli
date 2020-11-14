@@ -20,9 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7564c4bb-3fe0-48f2-b08b-7276b8dcb39f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/views/authors/edit.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spec/features/author/edit_author_spec.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/authors/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/authors/new.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/features/author/new_author_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/features/author/new_author_spec.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/authors_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/authors_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/authors/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/authors/index.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/authors/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/authors/show.html.erb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,7 +160,7 @@
       <workItem from="1605272810710" duration="1827000" />
       <workItem from="1605296134604" duration="3976000" />
       <workItem from="1605300642760" duration="1696000" />
-      <workItem from="1605350615443" duration="223000" />
+      <workItem from="1605350615443" duration="6348000" />
     </task>
     <servers />
   </component>
