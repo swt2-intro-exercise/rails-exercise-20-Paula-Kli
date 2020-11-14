@@ -11,7 +11,9 @@
       <td><%= author.name %></td>
       <td><%= author.homepage %></td>
       <td><%= link_to 'Show', author_path(author) %></td>
-      <td><%= link_to 'Edit', edit_authors_path(author) %></td>
+      <td><%= link_to 'Edit', edit_author_path(author) %></td>
+      <td><%= link_to 'Destroy', author_path(author), method: :delete,
+                      data: { confirm: 'Are you sur?' } %></td>
     </tr>
   <% end %>
 </table>
