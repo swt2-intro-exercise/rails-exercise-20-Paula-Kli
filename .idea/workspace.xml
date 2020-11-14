@@ -21,11 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="7564c4bb-3fe0-48f2-b08b-7276b8dcb39f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/authors_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/authors_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/author.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/author.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/authors/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/authors/new.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spec/features/author/new_author_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/features/author/new_author_spec.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/models/author_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/models/author_spec.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +41,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.ruby.settings.RubyActiveModuleSdkConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -62,11 +60,12 @@
       <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
       <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
       <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" />
+      <EXTENSION ID="org.jetbrains.plugins.ruby.rails.run.RailsRunConfigurationExtension" SCRATCH_USE_RAILS_RUNNER="false" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SCRIPT_ARGS" VALUE="" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="PORT" VALUE="3000" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="IP" VALUE="127.0.0.1" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="DUMMY_APP" VALUE="test/dummy" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RAILS_SERVER_TYPE" VALUE="Default" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RAILS_SERVER_TYPE" VALUE="default" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ENVIRONMENT_TYPE" VALUE="development" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
       <method v="2" />
@@ -132,6 +131,12 @@
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TESTOPTS" VALUE="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Rails.Development: rails-exercise-20-Paula-Kli" />
+      <item itemvalue="Rails.Production: rails-exercise-20-Paula-Kli" />
+      <item itemvalue="Rake.spec: rails-exercise-20-Paula-Kli" />
+      <item itemvalue="Rake.test: rails-exercise-20-Paula-Kli" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" RAKE_SPRING_PRE_LOADER_OPTION="true" RAILS_SPRING_PRE_LOADER_OPTION="true" />
@@ -150,7 +155,9 @@
       <workItem from="1605174583326" duration="7606000" />
       <workItem from="1605261863588" duration="2012000" />
       <workItem from="1605272810710" duration="1827000" />
-      <workItem from="1605296134604" duration="1198000" />
+      <workItem from="1605296134604" duration="3976000" />
+      <workItem from="1605300642760" duration="1696000" />
+      <workItem from="1605350615443" duration="223000" />
     </task>
     <servers />
   </component>
@@ -168,5 +175,19 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="97" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605300281649">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="97" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680/0.-1440.2048.1152@0.0.1280.680" timestamp="1605300281649" />
+    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1605300747534">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680/0.-1440.2048.1152@0.0.1280.680" timestamp="1605300747534" />
+    <state x="150" y="0" key="SettingsEditor" timestamp="1605303730021">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="150" y="0" key="SettingsEditor/0.0.1280.680/0.-1440.2048.1152@0.0.1280.680" timestamp="1605303730021" />
   </component>
 </project>
