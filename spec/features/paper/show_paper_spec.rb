@@ -8,6 +8,6 @@ describe "See details page for paper", type: :feature do
     expect(page).to have_text(@testPaper.title)
     expect(page).to have_text(@testPaper.venue)
     expect(page).to have_text(@testPaper.year)
-    expect(page).to have_text(@testPaper.authors)
+    expect(page).to have_text(@testPaper.authors[0].name)
   end
 end
