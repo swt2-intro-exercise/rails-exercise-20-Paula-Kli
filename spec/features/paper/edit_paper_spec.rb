@@ -6,6 +6,6 @@ describe "Edit paper should render", type: :feature do
     @testPaper = FactoryBot.create :paper
     @testAuthor = FactoryBot.create :author
     visit edit_paper_path(@testPaper)
-    expect(page).to have_select('paper[author_ids]', type: :hidden)
+    select @testAuthor.name, from: 'paper[author_ids][]', match: :first
   end
 end
